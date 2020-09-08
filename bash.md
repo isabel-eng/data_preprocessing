@@ -43,3 +43,10 @@
 
 ```ls -a``` shows ALL the content, even hidden files.
 
+```find ./my_dir -name myfile.out``` : search the file myfile.out in the my_dir directory.
+
+```find ./my_dir -name *.txt*``` : gives all files that end with .txt .
+
+```find ./my_dir -empty``` : finds all empty directories or sub-directories.
+
+```find ./ -type -name "*.txt" -exec grep 'Hello' {} \ ``` : prints the lines with the word hello in them. 'type f' specifies the input type is a file.
