@@ -41,14 +41,14 @@ The XML format stores data in a structure that is machine-readable and human-rea
 XML files have become a standard way of storing and transferring data between programs and over the Internet. However, they can be used by many other types of programs. The XML syntax has been utilized in a large variety of file formats, such as Microsoft Office Open XML, LibreOffice OpenDocument, .XHTML, and .SVG.
 #### Example:
 ![Example](https://www.mssqltips.com/tipimages2/2899_img5.jpg)
-### xls:
+### [xls](https://fileinfo.com/extension/xls#:~:text=An%20XLS%20file%20is%20a,charts%2C%20styles%2C%20and%20formatting.):
 An XLS file is a spreadsheet file created by Microsoft Excel or another spreadsheet program, such as OpenOffice Calc or Apple Numbers. It contains one or more worksheets, which store and display data in a table format. XLS files may also store mathematical functions, charts, styles, and formatting.
 #### Example:
 ![Example](https://m6n6j6i4.stackpathcdn.com/wp-content/uploads/2018/01/Importing-an-XLS-or-XLSX-into-Microsoft-Project-Fig-1.jpg)
 
 ## Difference between local and remote repositories
 
-### url:
+### [url](https://docs.github.com/en/free-pro-team@latest/github/using-git/about-remote-repositories):
 A remote URL is Git's fancy way of saying "the place where your code is stored." That URL could be your repository on GitHub, or another user's fork, or even on a completely different server.
 
 You can only push to two types of URL addresses:
@@ -58,7 +58,7 @@ An SSH URL, like git@github.com:user/repo.git
 
 Git associates a remote URL with a name, and your default remote is usually called origin.
 
-### apis: 
+### [apis](https://community.pega.com/knowledgebase/articles/data-management-and-integration/84/repository-apis): 
 To interact with any defined repository, use the default repository APIs that are included in Pega Platform. Other methods of interacting with files, such as using custom java, are not supported.
 
 For example, you can delete or retrieve a file in a repository. You can also add a new custom repository type so that your application can manage files in a remote file storage repository using the same API that you use for your default repository types. 
